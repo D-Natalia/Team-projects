@@ -1,0 +1,23 @@
+#container {
+    -fx-background-color: white;
+    -fx-padding: 40px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-border-radius: 10px;
+}
+
+#backButton, #removeEntryButton {
+    -fx-min-width: 100px;
+    -fx-max-width: 120px;
+    -fx-min-height: 35px;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 12px;
+    -fx-background-color: #65393a;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+#backButton:hover, #removeEntryButton:hover  {
+    -fx-background-color: #502a2d;
+}

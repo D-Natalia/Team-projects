@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<ScrollPane fx:id="scrollPane" fitToWidth="true" fitToHeight="true" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.controllers.MyJournalController" stylesheets="@../styles/my-journal.css">
+    <VBox spacing="10" alignment="TOP_CENTER" style="-fx-padding: 10; -fx-background-color: #ffffff;">
+        <ImageView fx:id="banner" />
+        <VBox fx:id="entryContainer" spacing="10" alignment="TOP_CENTER">
+
+        </VBox>
+        <HBox spacing="10" alignment="CENTER">
+            <Button fx:id="removeEntryButton" text="Remove Entry" styleClass="btn" />
+            <Button fx:id="backButton" text="Back" styleClass="btn" />
+        </HBox>
+    </VBox>
+</ScrollPane>

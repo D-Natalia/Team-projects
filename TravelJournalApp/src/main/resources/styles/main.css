@@ -1,0 +1,46 @@
+.main-text {
+   -fx-font-size: 36px;
+   -fx-font-weight: bold;
+   -fx-margin-bottom: 10px;
+   -fx-text-alignment: center;
+   -fx-text-fill: #2980b9;
+}
+
+.usual-text {
+-fx-font-size: 20px;
+ -fx-text-alignment: center;
+ -fx-text-color: #2980b9;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px 15px;
+    -fx-background-color: #65393a;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.dimension {
+    width: 800px;
+    height: 200px;
+
+}
+
+.colored-box {
+    -fx-fill: #502a2d;
+    width: 800px;
+    height: 200px;
+    -fx-text-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #502a2d;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-image: url("/images/Background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
